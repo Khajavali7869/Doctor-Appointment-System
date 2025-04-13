@@ -1,7 +1,10 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import './Header.jsx';
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const navigate=useNavigate();
   return (
     <div className='md:mx-10'>
       <div className='flex flex-col lg:flex-row justify-between gap-14 my-10 mt-40 text-base'>
@@ -22,9 +25,9 @@ const Footer = () => {
           <div>
             <p className='text-xl font-medium mb-5'>COMPANY</p>
             <ul className='flex flex-col gap-2 text-gray-600'>
-              <li className='hover:text-black cursor-pointer'>Home</li>
-              <li className='hover:text-black cursor-pointer'>About us</li>
-              <li className='hover:text-black cursor-pointer'>Contact us</li>
+              <li className='hover:text-black cursor-pointer' onClick={()=>{navigate('/'); }}> Home</li>
+              <li className='hover:text-black cursor-pointer' onClick={()=>{navigate('/about'); }}>About us</li>
+              <li className='hover:text-black cursor-pointer' onClick={()=>{navigate('/contact'); }}>Contact us</li>
               <li className='hover:text-black cursor-pointer'>Privacy Policy</li>
             </ul>
           </div>

@@ -30,6 +30,12 @@ import doc12 from './doc12.png'
 import doc13 from './doc13.png'
 import doc14 from './doc14.png'
 import doc15 from './doc15.png'
+import doc16 from './mb1.jpg'
+import doc17 from './aasii.jpg'
+import doc18 from './lahari.jpg'
+import doc19 from './vasu.jpg'
+
+
 import Dermatologist from './Dermatologist.svg'
 import Gastroenterologist from './Gastroenterologist.svg'
 import General_physician from './General_physician.svg'
@@ -282,6 +288,8 @@ export const doctors = [
             line2: 'Circle, Ring Road, London'
         }
     },
+   
+    
     {
         _id: 'doc15',
         name: 'Dr. Amelia Hill',
@@ -296,4 +304,62 @@ export const doctors = [
             line2: 'Circle, Ring Road, London'
         }
     },
+    {
+        _id: 'doc16',
+        name: 'Dr. Miraj Basha',
+        image: doc16,
+        speciality: 'Neurologist',
+        degree: 'MBBS',
+        experience: '4 Years',
+        about: 'Dr. Miraj Basha  has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Miraj Basha has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        fees: 50,
+        address: {
+            line1: '17th Cross, Richmond',
+            line2: 'Circle, Ring Road, London'
+        }
+    },
+    {
+        _id: 'doc19',
+        name: 'Dr. Vasu',
+        image: doc19,
+        speciality: 'Gastroenterologist',
+        degree: 'MBBS',
+        experience: '4 Years',
+        about: 'Dr. Vasu  has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. vasu has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        fees: 50,
+        address: {
+            line1: '17th Cross, Richmond',
+            line2: 'Circle, Ring Road, London'
+        }
+    },
+    {
+        _id: 'doc17',
+        name: 'Dr. Ashritha ',
+        image: doc17,
+        speciality: 'Gynecologist',
+        degree: 'MBBS',
+        experience: '4 Years',
+        about: 'Dr. Ashritha  has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr.Ashritha has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        fees: 50,
+        address: {
+            line1: '17th Cross, Richmond',
+            line2: 'Circle, Ring Road, London'
+        }
+    },
+    {
+        _id: 'doc18',
+        name: 'Dr. Lahari',
+        image: doc18,
+        speciality: 'Dermatologist',
+        degree: 'MBBS',
+        experience: '4 Years',
+        about: 'Dr. Lahari has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Lahari has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        fees: 50,
+        address: {
+            line1: '17th Cross, Richmond',
+            line2: 'Circle, Ring Road, London'
+        }
+    },
+    
+    
 ]
