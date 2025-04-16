@@ -49,8 +49,8 @@ const Login = () => {
   const [name, setName] = useState('')
 
   const onSubmitHandler = async (event) => {
+   
     event.preventDefault()
-    // You can add login/signup logic here
   }
 
   return (
